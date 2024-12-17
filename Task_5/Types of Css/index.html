@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Types of CSS</title>
+  <link rel="stylesheet" href="./css/style.css"/>
+  <style>
+  menu{
+    background-color: blueviolet;
+  }
+   #list1{
+      color: bisque;
+    }
+  .a1{
+    color: red;
+  }
+
+  </style>
+</head>
+<body>
+  
+<header><!--Inline css-->
+  <h1>--Inline css applyed--</h1>
+    <section style="color: aqua;">
+    <div>
+    <h1 style="background-color: brown;">Envisoin</h1>
+  </div>
+  <div style="background-color: bisque;">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit cum culpa repellendus aperiam enim praesentium similique voluptatem delectus nulla, iusto, perspiciatis velit eligendi dolores! Necessitatibus deleniti laboriosam tempore architecto? Ipsam?</p>
+  </div>
+ </section>
+</header>
+<hr style="width: 900px; height: 10px; background-color: black;"/>
+  <main><!--Internal css-->
+    <h1>--Internal css applyed--</h1>
+  <div>
+     
+      <menu>
+       <li id="list1"><a class="a1" href="#">Home</a></li>
+
+       <li><a href="#">Home</a></li>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">Home</a></li>
+      </menu>
+     
+
+  </div>
+  
+  </main>
+<hr/>
+  <footer><!--External css-->
+    <h1>--External css--</h1>
+    <menu>
+      <li ><a  href="#">Home</a></li>
+
+      <li><a id="a2" href="#">Home</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Home</a></li>
+     </menu>
+
+  </footer>
+</body>
+</html>

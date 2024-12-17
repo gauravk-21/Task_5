@@ -1,0 +1,54 @@
+                               /* -------------------Selectors---------------------------- */
+ /* Universal Selector 
+*{
+  color: rgb(212, 17, 234);
+} */
+
+
+/* id selector */
+#list1{
+  color: bisque;
+}
+
+
+/* element selector */
+/* h1{
+  color: aqua;
+} */
+
+
+/* class selection*/
+.a1
+{
+  background-color: aquamarine;
+}
+
+/* attribute with specific value */
+[width=300px]{
+  background-color: aquamarine; 
+ }
+
+/* -------------------------------------------------------------------------------------- */
+
+                      /* ------------------------------- Combinators--------------------------- */
+
+ /* Comman Seperated Combinator */
+h1,h3{
+  color: red;
+}
+
+/* Desecendent combinator */
+p span{
+  color: rgb(10, 237, 52);
+}
+
+/* child combinator */
+li > a{
+  background-color:rgb(5, 178, 253);
+}
+
+/* group combinator */
+
+#a2,#menu1{
+  background-color: blueviolet;
+}
